@@ -1,82 +1,180 @@
-
-body{
+body {
     font-family: Montserrat;
     color: #774E2E;
     margin: 0;
 }
-
-header{
-    /* border: 3px solid red; */
+header {
     padding-top: 30px;
 }
-
-h1{
+h1 {
     font-size: 110px;
     font-weight: 800;
+}
+h1 span {
+    color: #F37F34;
     margin-top: 0;
     margin-bottom: 40px;
 }
-
-h1 span{
-    color: #F37F34;
-}
-
-p{
+p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
 }
-
-.container{
-    /* border: 2px solid blue; */
+.container {
+    /*border: 2px solid blue; */
     max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
 }
-
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 160px;
 }
-
-.logo{
-    
-}
-
-.menu{
-    /* border: 2px solid green; */
+.menu {
     display: flex;
     align-items: center;
 }
-
-.menu a{
+.menu a {
     font-size: 16px;
     font-weight: 500;
+    font-family: Montserrat;
     color: #774E2E;
     text-decoration: none;
     margin-left: 50px;
 }
-
-.yummy-welcome{
-    /* border: 2px solid red; */
+.yummy-welcome {
     width: 575px;
 }
-
-.btn{
+.btn {
     background-color: #774E2E;
     font-size: 20px;
-    color: #ffffff;
+    font-weight: 500;
+    color: #fff;
     line-height: 26px;
     border: none;
     padding: 22px 41px;
-    font-weight: 500;
     font-family: Montserrat;
     margin-top: 50px;
 }
-
-.header-section{
-    background-image: url('../image/bg.png');
+.header-section {
+    background-image: url("../images/pug.png");
     background-repeat: no-repeat;
     background-position: center right;
     padding-bottom: 140px;
+}
+.favourite {
+    background-color: #FFF9EA;
+    height: 911px;
+    margin-bottom: 141px;
+}
+.sweets-block {
+    max-width: 1170px;
+    width: 1170px;
+    margin: 0 auto;
+    text-align:center;
+}
+.sweets-block h2 {
+    font-size: 72px;
+    font-weight: 700;
+    padding: 150px 15px 80px 15px;
+    margin: 0 auto;
+}
+h2 span {
+    color: #F37F34;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    height: 462px;
+}
+.candies1 {
+    width: 370px;
+    background-color: #fff;
+    margin-right: 30px;
+}
+.picture1 {
+    background-image: url("../images/poppy.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 248px;
+}
+.candies2 {
+    width: 370px;
+    background-color: #fff;
+    margin-right: 30px;
+}
+.picture2 {
+    background-image: url("../images/creamy.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 248px;
+}
+.candies3 {
+    width: 370px;
+    background-color: #fff;
+}
+.picture3 {
+    background-image: url("../images/hazel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 248px;
+}
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.text1,
+.text2,
+.text3 p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.advice {
+    max-width: 1170px;
+    width: 1170px;
+    height: 722px;
+    margin: 0 auto;
+}
+.text-section {
+    width: 575px;
+    height: 635px;
+}
+.advice-block {
+    background-image: url("../images/pugadvice.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 722px;
+    position: center right;
+}
+.text-section h2 {
+    font-size: 72px;
+    font-weight: 700;
+    padding-top: 47px;
+}
+li {
+    font-size: 16px;
+    font-weight: 500;
+}
+footer {
+    background-color: #774E2E;
+    height: 179px;
+    margin-top: 159px;
+}
+.final {
+    max-width: 1170px;
+    width: 1170px;
+    height: 179px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.final-text {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 192px;
 }
