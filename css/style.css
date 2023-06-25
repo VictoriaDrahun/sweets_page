@@ -1,0 +1,82 @@
+
+body{
+    font-family: Montserrat;
+    color: #774E2E;
+    margin: 0;
+}
+
+header{
+    /* border: 3px solid red; */
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 110px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+h1 span{
+    color: #F37F34;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.container{
+    /* border: 2px solid blue; */
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.logo{
+    
+}
+
+.menu{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #774E2E;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.yummy-welcome{
+    /* border: 2px solid red; */
+    width: 575px;
+}
+
+.btn{
+    background-color: #774E2E;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 26px;
+    border: none;
+    padding: 22px 41px;
+    font-weight: 500;
+    font-family: Montserrat;
+    margin-top: 50px;
+}
+
+.header-section{
+    background-image: url('../image/bg.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-bottom: 140px;
+}
